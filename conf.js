@@ -15,7 +15,7 @@ jsproxy_config({
     'mysite': {
       label: '我的节点',
       lines: {
-        "https://3.114.127.79.nip.io:8443": 1,
+        "https://3.114.127.79.nip.io": 1,
       }
     }
   },
@@ -27,7 +27,7 @@ jsproxy_config({
   /**
    * 加速节点
    */
-  node_acc: 'cfworker',
+  node_acc: 'mysite',
 
   /**
    * 静态资源 CDN 地址
