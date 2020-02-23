@@ -12,17 +12,10 @@ jsproxy_config({
 
   // 节点配置
   node_map: {
-    'demo-hk': {
-      label: '节点1',
-      lines: {
-        // 主机:权重
-        'https://3.114.127.79.nip.io/': 1,
-      }
-    },
     'mysite': {
       label: '当前站点',
       lines: {
-        "https://3.114.127.79.nip.io/": 1,
+        "https://3.114.127.79.nip.io:8443": 1,
       }
     },
     // 该节点用于加载大体积的静态资源
