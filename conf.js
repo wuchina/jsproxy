@@ -13,7 +13,7 @@ jsproxy_config({
   // 节点配置
   node_map: {
     'mysite': {
-      label: '当前站点',
+      label: '我的节点',
       lines: {
         "https://3.114.127.79.nip.io:8443": 1,
       }
